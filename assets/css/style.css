@@ -1,0 +1,366 @@
+@import url('https://fonts.cdnfonts.com/css/arquitecta');
+@import url(/assets/css/root.css);
+
+body {
+    font-family: 'Arquitecta', sans-serif;
+}
+
+.light_grey {
+    color: #686C6B;
+}
+
+.dark_grey {
+    color: #040707CC;
+}
+
+p,
+h2,
+h3,
+h4 {
+    margin-bottom: unset !important;
+}
+
+/*===================== Nav-bar================================= */
+.nav_btn {
+    border: 1px solid #F58505;
+    padding: 12px 20px 12px 20px;
+    background: #060804;
+}
+
+.nav_btn:hover {
+    border: 1px solid #EEE916;
+    transition: all 300ms linear;
+}
+
+.nav_btn:hover a {
+    color: var(--fc-yellow);
+    transition: all 300ms linear;
+}
+
+.navbar-nav :hover {
+    font-weight: 900;
+}
+
+.gap_35 {
+    gap: 35px;
+}
+
+.pe_40 {
+    padding-right: 40px;
+}
+
+.fw-450 {
+    font-weight: 450;
+}
+
+/* ===================Hero-section================= */
+.bg_image {
+    background-image: url(/assets/images/png/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mt_202 {
+    margin-top: 202px;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+.ps_34 {
+    padding-left: 34px;
+}
+
+.ps_23 {
+    padding-left: 23px;
+}
+
+.hero_content {
+    gap: 58px;
+}
+
+.hero_para {
+    max-width: 633px;
+}
+
+.hero_title {
+    max-width: 540px;
+}
+
+.hero_btn {
+    padding: 10px 24px;
+    margin-top: 40px;
+}
+
+.hero_btn:hover {
+    background: var(--fc-yellow);
+    transition: all 300ms linear;
+}
+
+.hero_btn:hover a {
+    color: black !important;
+    transition: all 300ms linear;
+}
+
+/* =====================================Section-2=========================================== */
+.sec_2_data_numbers {
+    gap: 120px;
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+
+/* ==============================Section-3=========================================== */
+.sec_3_title {
+    padding-top: 154px;
+    padding-bottom: 87px;
+}
+
+.s2_ep {
+    font-weight: 900;
+    padding: 3px 10px;
+}
+
+.s2_ep_box {
+    border-radius: 55px;
+}
+
+.podcast_card_para {
+    max-width: 695px;
+}
+
+.read_more {
+    border-bottom: 2px solid black;
+    max-width: 64px;
+}
+
+.read_more:hover {
+    transform: scale(1.1);
+}
+
+.podcast_cards {
+    border: 1px solid #686C6B;
+    padding: 16px;
+    max-width: 1180px;
+}
+
+.card_play_btn {
+    cursor: pointer;
+}
+
+.card_play_btn:hover path {
+    fill: #F58505;
+}
+
+.butns {
+    margin-top: 67px;
+    margin-bottom: 73px;
+}
+
+.podcast-btn{
+border: 1px solid #4f5252;
+padding: 10px 24px;
+background: #FFFFFF;
+
+}
+
+button a {
+   
+    color: #040707;
+}
+    .podcast-btn:hover{
+        background-color: #F58505;
+        color: white;
+        border: none;
+        transition: all 300ms linear;
+    }
+
+    .podcast-btn a:hover {
+       
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+@import url(/assets/css/root.css);
+
+.barnding-card-1 {
+    max-width: 288px;
+    max-height: 170px;
+
+}
+
+.barnding-card-2 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-3 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-4 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.barnding-card-5 {
+    max-width: 288px;
+    max-height: 170px;
+}
+
+.my-brand-main-card {
+    margin-top: 66px;
+    margin-bottom: 144px;
+}
+
+.section-2-heading {
+    margin-top: 74px;
+}
+
+
+
+/* -------------Grab-Your-Free-PDF-Now-------------- */
+
+.bg-img {
+    background-image: url(/assets/images/png/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    ;
+}
+
+.section-4-heading {
+    padding-top: 115px;
+}
+
+.para-section-4 {
+    max-width: 730px;
+
+}
+
+.input-section {
+    max-width: 330px;
+    width: 100%;
+}
+
+.Grab-Your-Free-PDF-Now {
+    max-width: 730px;
+}
+
+.name-input {
+    padding: 13px 278px 12px 16px;
+    border: 1px solid #686C6B;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.email-input {
+    padding: 13px 230px 12px 16px;
+    border: 1px solid #686C6B;
+    width: 100%;
+}
+
+.name-input::placeholder {
+    width: 100%;
+    padding: 13px 16px;
+}
+
+.email-input::placeholder {
+    width: 100%;
+    padding: 13px 20px 13px 16px;
+}
+
+.pdf-btn {
+    width: 329px;
+    height: 48px;
+    gap: 10px;
+    background: #F58505;
+    color: white;
+    margin-top: 32px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.pdf-btn:hover {
+    background-color: white;
+    color: #F58505;
+}
+
+
+
+
+
+
+
+/* ----------------responsive----------------- */
+
+
+
+@media (max-width:575.98px) {
+
+
+    .barnding-card-5 {
+        align-self: center;
+
+    }
+
+}
+    /* ================================RESPONSIVE======================================= */
+    @media (max-width:1199.8px) {
+        .hero_content {
+            flex-wrap: wrap-reverse;
+        }
+
+        .gap_35 {
+            gap: 5px;
+        }
+
+        .pe_40 {
+            padding-right: 10px;
+        }
+
+
+        .mt_202 {
+            margin-top: 150px;
+        }
+
+        .mt_60 {
+            margin-top: 90px;
+        }
+    }
+
+    @media (max-width:991.9px) {
+        .mt_202 {
+            margin-top: 90px;
+        }
+
+        .mt_60 {
+            margin-top: 100px;
+        }
+
+        .card_details {
+            margin-top: 20px;
+        }
+
+        .sec_3_title {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+    }
+
+    @media (max-width:575.98px) {
+        .butns{
+            flex-wrap: wrap;
+        }
+        
+    }
