@@ -181,8 +181,86 @@ button a {
         color: white;
     }
 
+    .first-card{
+        box-shadow: 0px 0px 20px 1px #00000012;
+        border-radius: 2px;
+        padding: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
 
+/* ============section-5================ */
+.slick-track {
+    display: flex !important;
+    gap: 32px !important;
+}
+
+.sec-5 .slick-dots li {
+    transition: all 200ms linear;
+    width: 8px !important;
+    height: 8px;
+    background-color: #686C6B;
+    border-radius: 100%;
+}
+
+.sec-5 .slick-dots .slick-active {
+    background-color: #F58505 !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+}
+
+.sec-5 .slick-dots li button::before {
+    content: unset !important;
+}
+
+.sec-5 .slick-dots {
+    bottom: -50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------input------section------------ */
+.bg-image{
+    background: url(../images/png/bg-img-footer.png);
+    background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
+
+.mx-730{
+    max-width: 730px;
+}
+.m_w_330{
+max-width: 330px;
+}
+.py_12{
+    padding: 12px;
+}
+
+
+    /* ----------footer------------- */
+
+        .links:hover a {
+            color: #F58505 !important;
+    
+            path {
+                stroke: #F58505 !important;
+            }
+        }
+    
+        .links {
+            transition: all 200ms linear !important;
+        }
+    
+        .footer-circle {
+            width: 35px;
+            height: 35px;
+            background: #2B2B2B;
+            border-radius: 50px;
+        }
 
 
 
@@ -302,19 +380,7 @@ button a {
 
 
 
-/* ----------------responsive----------------- */
 
-
-
-@media (max-width:575.98px) {
-
-
-    .barnding-card-5 {
-        align-self: center;
-
-    }
-
-}
     /* ================================RESPONSIVE======================================= */
     @media (max-width:1199.8px) {
         .hero_content {
@@ -362,5 +428,9 @@ button a {
         .butns{
             flex-wrap: wrap;
         }
+                 .barnding-card-5 {
+                     align-self: center;
+        
+                 }
         
     }
